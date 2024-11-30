@@ -22,11 +22,22 @@ MysensorsMicro.bootloader.file=DualOptiboot/optiboot_atmega328_pro_8MHz.hex
 MysensorsMicro.build.board=AVR_MICRO8
 MysensorsMicro.build.core=arduino:arduino
 MysensorsMicro.build.variant=micro
-MysensorsMicro.build.mcu=atmega328p
 #MysensorsMicro.build.f_cpu=8000000L
 
-MysensorsMicro.menu.cpu.8Mhz=Atmega328 8Mhz
-MysensorsMicro.menu.cpu.8Mhz.build.f_cpu=8000000L 
+MysensorsMicro.menu.cpu.16Mhz_p=Atmega328p 16Mhz
+MysensorsMicro.menu.cpu.16Mhz_p.build.f_cpu=16000000L 
+MysensorsMicro.menu.cpu.16Mhz_p.bootloader.low_fuses=0xFF
+MysensorsMicro.menu.cpu.16Mhz_p.build.mcu=atmega328p
 
-MysensorsMicro.menu.cpu.1Mhz=Atmega328 1Mhz
-MysensorsMicro.menu.cpu.1Mhz.build.f_cpu=1000000L
+MysensorsMicro.menu.cpu.8Mhz_p=Atmega328p 8Mhz
+MysensorsMicro.menu.cpu.8Mhz_p.build.f_cpu=8000000L 
+MysensorsMicro.menu.cpu.8Mhz_p.build.mcu=atmega328p
+
+MysensorsMicro.menu.cpu.1Mhz_p=Atmega328p 1Mhz
+MysensorsMicro.menu.cpu.1Mhz_p.build.f_cpu=1000000L
+MysensorsMicro.menu.cpu.1Mhz_p.build.mcu=atmega328p
+
+MysensorsMicro.menu.cpu.8Mhz_pb=Atmega328pb 8Mhz
+MysensorsMicro.menu.cpu.8Mhz_pb.build.f_cpu=8000000L 
+MysensorsMicro.menu.cpu.8Mhz_pb.build.mcu=atmega328pb
+
